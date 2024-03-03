@@ -57,15 +57,15 @@ ol {
   text-align: center;
   color: #fff;
 }
+
 .main-btn {
   background: #4d5ae5;
-}
-.main-btn-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
 }
 
 .main-btn-title:hover,
@@ -77,11 +77,6 @@ ol {
 
 .visually-hidden {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -105,6 +100,7 @@ ol {
   color: #434455;
 }
 .team {
+  background: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -112,11 +108,13 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .team-list {
 }
 .team-item {
+  background: #fff;
 }
 .team-image {
 }
@@ -143,6 +141,7 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .portfolio-list {
