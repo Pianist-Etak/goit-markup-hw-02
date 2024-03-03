@@ -68,8 +68,8 @@ ol {
   cursor: pointer;
 }
 
-.main-btn-title:hover,
-.main-btn-title:focus {
+.main-btn:hover,
+.main-btn:focus {
   background: #404bbf;
 }
 .goals {
